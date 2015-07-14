@@ -1,0 +1,72 @@
+/* ------ 字型美化 ------ */
+* {
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+/* ------ 內容設定 ------ */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 65px;
+	padding-bottom: 30px;
+	width: auto;
+}
+
+/* ------ 導航欄 ------ */
+.navbar {
+	background-color: #222;
+	display: block;
+	height: 50px;
+	opacity: 0.9;
+	position: fixed;
+	width: 100%;
+}
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav li a {
+	color: #999;
+	line-height: 50px;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.nav li a:hover {
+	color: #ffffff;
+}
+
+.nav-text {
+	color: #999;
+	float: left;
+	line-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.nav-right {
+	float: right !important;
+}
+
+.nav-header {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 50px;
+}

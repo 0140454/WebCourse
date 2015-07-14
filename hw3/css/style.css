@@ -1,0 +1,70 @@
+*, h1, p {
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+body {
+	background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+	background-size: cover;
+}
+
+.navbar-inverse {
+	background-color: rgba(34, 34, 34, .8);
+	border-color: rgba(34, 34, 34, .8);
+}
+
+.table-striped>tbody>tr:nth-child(even) {
+	background-color: rgba(243, 243, 243, .85);
+}
+
+.table-striped>tbody>tr:nth-child(odd) {
+	background-color: rgba(255, 255, 255, .9);
+}
+
+.table tbody>tr>td.vert-align{
+    vertical-align: middle;
+}
+
+.tab-content>.tab-pane {
+	border-radius: 0 0 4px 4px;
+}
+
+.nav-tabs {
+	border-radius: 4px 4px 0 0;
+}
+
+a.search-result:link {
+	color: #1a0dab;
+	font-size: 110%;
+	text-decoration: none;
+}
+
+a.search-result:hover {
+	text-decoration: underline;
+}
+
+a.search-result:visited {
+	color: #609;
+}
+
+a.search-result:active {
+	color: #1a0dab;
+}
+
+blockquote.search-result {
+	border-left: none;
+	padding: 0;
+	margin: 15px 15px 15px 15px;
+}
+
+.post-box {
+	background-color: rgba(238, 238, 238, .8);
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 12px;
+	width: 48%;
+}
+	
+.top-buffer {
+	margin-top: 80px;
+}
